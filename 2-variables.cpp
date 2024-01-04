@@ -2,7 +2,7 @@
 int main(){
 
     int x; //declaration
-    x=5;
+    x=5; //assignment
 
     std::cout << x;
 
