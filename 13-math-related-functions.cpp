@@ -10,6 +10,8 @@ int main()
     double c;
     double d;
     double e;
+    double f;
+    double g;
 
 //determine the max with built-in function
     z=std::max(x,y);
@@ -33,6 +35,13 @@ int main()
     e=std::round(1.9);
     std::cout << e <<"\n";
 
+//round up - ceiling
+    f=std::ceil(3.9);
+    std::cout << f <<"\n";
+
+//round down - floor
+    g=std::floor(3.9);
+    std::cout << g <<"\n";
 
 
     return 0;
