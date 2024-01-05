@@ -7,7 +7,7 @@ int two = 2;
 
 int product = one*two;
 int sum = one+two;
-int quotient = one/two;
+double quotient = one/two;
 int difference = one-two;
     std::cout << product << '\n';
     std::cout << sum << '\n';
