@@ -5,8 +5,11 @@ int main(){
     std::string name;
 
     std::cout <<"What's your name bro?";
-    std::cin>> name;
-
+    // std::cin>> name;
+    //but what about getting multiple words?
+std::getline(std::cin, name);
     std::cout<<"Hello "<<name;
     return 0;
+
+    
 }
