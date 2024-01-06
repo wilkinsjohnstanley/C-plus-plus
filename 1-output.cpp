@@ -6,6 +6,7 @@ int main(){
  
     //std::cout << "I like tonkatsu ramen";
     std::cout << "I like tonkatsu ramen" << std::endl;
+    std::cout << "I like miso ramen" << '\n';
     //if you need the next line of text to be on the next line
     std::cout << "But aka-miso is also delicious"  << std::endl;
 
